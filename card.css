@@ -3,16 +3,15 @@ div.gallery {
 }
 
 div.gallery:hover {
-  /*border: 0.2px solid #777;*/*/
+  /*border: 0.2px solid #777;*/
   transform: translateY(10px);
-
 }
 body {
   background-color: rgb(255, 255, 255);
 }
 div.gallery img {
   width: 100%;
-   border-radius: 12px;
+  border-radius: 12px;
   height: auto;
   box-shadow: 5.5px 50px 30px -30px #888;
 }
@@ -45,7 +44,7 @@ h4 {
 }
 @media only screen and (max-width: 700px) {
   .responsive {
-    width: 49.99999%;
+    width: 100%;
     margin: 6px 0;
   }
 }
@@ -57,6 +56,14 @@ h4 {
   .clearfix {
     padding: 8px;
     text-align: center;
+  }
+  .linka {
+    font-size: 10px;
+  }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }
 
